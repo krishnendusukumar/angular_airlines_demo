@@ -1,0 +1,465 @@
+{
+  "airlines": [
+    {
+      "id": "CAD-101",
+      "airlinesImage": "CanadianAirlines.jpg",
+      "airlinesName": "Canadian Airlines",
+      "status": "Running",
+      "source": "Toronto",
+      "destination": "Ottawa",
+      "fare": 543
+    },
+    {
+      "id": "IND-101",
+      "airlinesImage": "IndianAirlines.jpg",
+      "airlinesName": "Indian Airlines",
+      "status": "Running",
+      "source": "New Delhi",
+      "destination": "Mumbai",
+      "fare": 300
+    },
+    {
+      "id": "USA-101",
+      "airlinesImage": "americanAirlines.jpg",
+      "airlinesName": "American Airlines",
+      "status": "Running",
+      "source": "Los Angeles",
+      "destination": "San Fransisco",
+      "fare": 699
+    },
+    {
+      "id": "USA-102",
+      "airlinesImage": "americanAirlines.jpg",
+      "airlinesName": "American Airlines",
+      "status": "Cancelled",
+      "source": "Dallas",
+      "destination": "Boston",
+      "fare": 249
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1001,
+      "airlinesId": "IND-101",
+      "customerName": "John Doe",
+      "dateOfJourney": "2021-05-05",
+      "noOfTickets": 2
+    },
+    {
+      "id": 1002,
+      "airlinesId": "USA-101",
+      "customerName": "Jack Dcousta",
+      "dateOfJourney": "2021-02-01",
+      "noOfTickets": 3
+    },
+    {
+      "id": 1003,
+      "airlinesId": "CAD-101",
+      "customerName": "Emily Carter",
+      "dateOfJourney": "2021-09-09",
+      "noOfTickets": 4
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1004
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1005
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1006
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1007
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1008
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1009
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1010
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1011
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1012
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1013
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1014
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1015
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1016
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1017
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1018
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1019
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1020
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1021
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1022
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1023
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1024
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1025
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1026
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1027
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1028
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1029
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1030
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1031
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1032
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1033
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1034
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1035
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1036
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1037
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1038
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1039
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1040
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1041
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1042
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1043
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1044
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1045
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1046
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1047
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1048
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1049
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1050
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1051
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1052
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1053
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1054
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1055
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1056
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1057
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1058
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1059
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1060
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1061
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1062
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1063
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1064
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1065
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1066
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1067
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1068
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1069
+    },
+    {
+      "customerName": "fd",
+      "noOfTickets": 2,
+      "dateOfJourney": "2024-12-28",
+      "id": 1070
+    }
+  ]
+}
